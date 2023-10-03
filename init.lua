@@ -280,6 +280,7 @@ vim.keymap.set('i', 'jk', '<esc>', {silent = true})
 vim.keymap.set('n', '<leader>qq', '<cmd>wqa<cr>', {desc = "Quit and Write All", silent = true})
 vim.keymap.set('n', '<C-h>', '<C-w>h', {silent = true, desc = "Go to Left Window"} )
 vim.keymap.set('n', '<C-l>', '<C-w>l', {silent = true, desc = "Go to Right Window"} )
+vim.keymap.set('n', '<leader>ft', '<cmd>TodoTelescope<cr>', {silent = true, desc = "Find Todos"} )
 
 -- End My Custom Keymaps
 --
