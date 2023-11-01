@@ -279,6 +279,7 @@ vim.keymap.set('n', '<C-h>', '<C-w>h', {silent = true, desc = "Go to Left Window
 vim.keymap.set('n', '<C-l>', '<C-w>l', {silent = true, desc = "Go to Right Window"} )
 vim.keymap.set('n', '<leader>ft', '<cmd>TodoTelescope<cr>', {silent = true, desc = "Find Todos"} )
 vim.keymap.set('n', '<leader>t', '<cmd>lua require("FTerm").toggle()<cr>', {silent = true, desc = "Open Terminal"} )
+vim.keymap.set('n', '<leader>cr', '<cmd>lua vim.lsp.buf.rename()<cr>', {silent = true, desc = "Code Rename"} )
 
 -- End My Custom Keymaps
 --
